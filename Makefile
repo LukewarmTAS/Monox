@@ -23,4 +23,4 @@ qemu:
 	qemu-system-x86_64 -drive file=monox.img,format=raw,index=0,media=disk
 
 clean:
-	rm -r *.out *.o *.d */*.d *.bin initcode
+	rm -r *.o *.d *.bin
